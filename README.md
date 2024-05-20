@@ -10,6 +10,29 @@
 
 **Description**:
 
+<h3> Install the necessary libraries </h3>
+- import numpy as np
+- import pandas as pd
+- import matplotlib.pyplot as plt
+- import seaborn as sns
+- from scipy.stats import gaussian_kde
+- from scipy.stats import kurtosis
+- from scipy.stats import skew
+- from sklearn.metrics import r2_score
+- import math
+- import warnings
+- import csv
+- warnings.filterwarnings("ignore")
+
+- import torch
+- import torch.nn as nn
+- from torch.utils.data import Dataset, DataLoader
+- from torch import autograd
+- import torch.optim as optim
+- from torch.autograd import Variable
+- from torchvision.utils import make_grid
+
+<h3>About the model </h3>
 ![fig3](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/da663461-e343-430e-9599-dc11f1a41f5b)
 
 
@@ -24,7 +47,7 @@ The discriminator takes a data sample and a conditional variable as input and ou
 
 The training process involves a two-player minimax game where the generator tries to fool the discriminator and the discriminator tries to correctly classify real and synthetic samples. The training concludes when the generator successfully emulates the distribution of the input data samples and the discriminator can no longer distinguish between real and synthetic samples. (Illustration in Fig. 1.)
 
-The code provided trains a C-GAN model for prediction of response spectra using conditional input. The .py file provides placeholders for easy customization of the model and its parameters. The cleaned version of data is also provided for further utilization.
+The code provided trains a C-GAN model for prediction of response spectra using conditional input. The complete_model.py file provides placeholders for easy customization of the model and its parameters. The cleaned version of data is also provided for further utilization.
 
 For better performance, it is recommended to use a computing cluster to run the program. This allows the training phase to last for a decent amount of time. The final plots provided for the generator and discriminator training give an overview of the efficacy of the model. It’s important to evaluate the model based on various metrics before drawing conclusions.
 
