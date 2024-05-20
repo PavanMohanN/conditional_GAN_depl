@@ -4,7 +4,7 @@
 
 `@author: Pavan Mohan Neelamraju`
 
-`Affiliation: Indian Institute of Technology - Madras,`
+`Affiliation: Indian Institute of Technology Madras`
 
 **Email**: npavanmohan3@gmail.com
 
@@ -60,8 +60,13 @@ Please note that while C-GANs can be powerful tools for generating data, they al
 
 Fig. 2. Discriminator Ambiguity observed in $D$-Loss.
 
+<h3>Few Samples </h3>
+![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/25411291-bed7-4a55-817b-c431dcdfaf3c)
 
-**Website**: [pavanmohann.github.io](https://pavanmohann.github.io/)
+
+
+
+**Personal Website 🔴🔵**: [pavanmohann.github.io](https://pavanmohann.github.io/)
 
 
 ---
