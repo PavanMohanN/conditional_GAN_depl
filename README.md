@@ -11,6 +11,7 @@
 **Description**:
 
 ![fig3](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/da663461-e343-430e-9599-dc11f1a41f5b)
+\\
 Fig. 1. C-GAN model illustration.
 
 
@@ -31,6 +32,7 @@ The first preliminary indicator for a well-trained adversarial network is the am
 Please note that while C-GANs can be powerful tools for generating data, they also require careful tuning and monitoring to ensure stable training and meaningful output.
 
 ![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/b7f7cfa7-4568-44d5-8e04-54b25866cc46)
+\\
 Fig. 2. Discriminator Ambiguity observed in $D$-Loss.
 
 
