@@ -23,7 +23,6 @@
 - import warnings
 - import csv
 - warnings.filterwarnings("ignore")
-
 - import torch
 - import torch.nn as nn
 - from torch.utils.data import Dataset, DataLoader
@@ -33,7 +32,8 @@
 - from torchvision.utils import make_grid
 
 <h3>About the model </h3>
-![fig3](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/da663461-e343-430e-9599-dc11f1a41f5b)
+
+![fig3](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/a320de4f-4af8-4380-8b94-a6045eb74eb3)
 
 
 Fig. 1. C-GAN model illustration.
