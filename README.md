@@ -1,6 +1,6 @@
 `Created in May 2024`
 
-`File: CGAN_under_deployment.ipynb`
+`File: complete_model.py`
 
 `@author: Pavan Mohan Neelamraju`
 
