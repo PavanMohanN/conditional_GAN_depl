@@ -61,9 +61,8 @@ Please note that while C-GANs can be powerful tools for generating data, they al
 Fig. 2. Discriminator Ambiguity observed in $D$-Loss.
 
 <h3>Few Samples </h3>
-![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/25411291-bed7-4a55-817b-c431dcdfaf3c)
 
-
+![aaa](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/7002d1e3-297b-43ae-9522-a1a0c9be9751)
 
 
 **Personal Website 🔴🔵**: [pavanmohann.github.io](https://pavanmohann.github.io/)
