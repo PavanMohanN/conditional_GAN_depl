@@ -60,8 +60,7 @@ The first preliminary indicator for a well-trained adversarial network is the am
 
 Please note that while C-GANs can be powerful tools for generating data, they also require careful tuning and monitoring to ensure stable training and meaningful output.
 
-![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/399cce3c-070e-4982-8808-2f38104df651)
-
+![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/d536ec2d-f9d6-4bf6-ace5-f87bf667cec1)
 
 
 Fig. 2. Discriminator Ambiguity observed in $D$-Loss.
