@@ -1,7 +1,7 @@
 ![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/2cf7b55b-dd8c-4acb-8ed8-9b867d77dd26)
 
 
-<h3>Required Libraries </h3>
+<h3>Library Installation </h3>
 
 <code>pip install numpy</code><br>
 <code>pip install pandas</code><br>
@@ -12,7 +12,7 @@
 <code>pip install torch</code><br>
 <code>pip install torchvision</code>
 
-<h3> Install the necessary libraries </h3>
+<h3> Importing the libraries </h3>
 
 <code>import numpy as np</code><br>
 <code>import pandas as pd</code><br>
