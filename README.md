@@ -1,5 +1,3 @@
-![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/9633f097-0c27-41f7-8818-dd83fc3a73e8)
-
 ![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/2cf7b55b-dd8c-4acb-8ed8-9b867d77dd26)
 
 
