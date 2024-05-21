@@ -8,28 +8,29 @@
 
 **Email**: npavanmohan3@gmail.com
 
-**Description**:
+<h3>Required Libraries </h3>
 
 <h3> Install the necessary libraries </h3>
-- import numpy as np
-- import pandas as pd
-- import matplotlib.pyplot as plt
-- import seaborn as sns
-- from scipy.stats import gaussian_kde
-- from scipy.stats import kurtosis
-- from scipy.stats import skew
-- from sklearn.metrics import r2_score
-- import math
-- import warnings
-- import csv
-- warnings.filterwarnings("ignore")
-- import torch
-- import torch.nn as nn
-- from torch.utils.data import Dataset, DataLoader
-- from torch import autograd
-- import torch.optim as optim
-- from torch.autograd import Variable
-- from torchvision.utils import make_grid
+<code>import numpy as np</code><br>
+<code>import pandas as pd</code><br>
+<code>import matplotlib.pyplot as plt</code><br>
+<code>import seaborn as sns</code><br>
+<code>from scipy.stats import gaussian_kde</code><br>
+<code>from scipy.stats import kurtosis</code><br>
+<code>from scipy.stats import skew</code><br>
+<code>from sklearn.metrics import r2_score</code><br>
+<code>import math</code><br>
+<code>import warnings</code><br>
+<code>import csv</code><br>
+<code>warnings.filterwarnings("ignore")</code><br>
+<code>import torch</code><br>
+<code>import torch.nn as nn</code><br>
+<code>from torch.utils.data import Dataset, DataLoader</code><br>
+<code>from torch import autograd</code><br>
+<code>import torch.optim as optim</code><br>
+<code>from torch.autograd import Variable</code><br>
+<code>from torchvision.utils import make_grid</code>
+
 
 <h3>About the model </h3>
 
@@ -55,7 +56,8 @@ The first preliminary indicator for a well-trained adversarial network is the am
 
 Please note that while C-GANs can be powerful tools for generating data, they also require careful tuning and monitoring to ensure stable training and meaningful output.
 
-![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/b7f7cfa7-4568-44d5-8e04-54b25866cc46)
+![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/399cce3c-070e-4982-8808-2f38104df651)
+
 
 
 Fig. 2. Discriminator Ambiguity observed in $D$-Loss.
