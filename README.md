@@ -10,7 +10,17 @@
 
 <h3>Required Libraries </h3>
 
+<code>pip install numpy</code><br>
+<code>pip install pandas</code><br>
+<code>pip install matplotlib</code><br>
+<code>pip install seaborn</code><br>
+<code>pip install scipy</code><br>
+<code>pip install scikit-learn</code><br>
+<code>pip install torch</code><br>
+<code>pip install torchvision</code>
+
 <h3> Install the necessary libraries </h3>
+
 <code>import numpy as np</code><br>
 <code>import pandas as pd</code><br>
 <code>import matplotlib.pyplot as plt</code><br>
