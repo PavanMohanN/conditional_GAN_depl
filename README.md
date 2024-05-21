@@ -1,12 +1,5 @@
-`Created in May 2024`
+![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/9633f097-0c27-41f7-8818-dd83fc3a73e8)
 
-`File: complete_model.py`
-
-`@author: Pavan Mohan Neelamraju`
-
-`Affiliation: Indian Institute of Technology Madras`
-
-**Email**: npavanmohan3@gmail.com
 
 <h3>Required Libraries </h3>
 
@@ -76,7 +69,15 @@ Fig. 2. Discriminator Ambiguity observed in $D$-Loss.
 
 ![aaa](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/7002d1e3-297b-43ae-9522-a1a0c9be9751)
 
+`Created in May 2024`
 
+`File: complete_model.py`
+
+`@author: Pavan Mohan Neelamraju`
+
+`Affiliation: Indian Institute of Technology Madras`
+
+**Email**: npavanmohan3@gmail.com
 **Personal Website 🔴🔵**: [pavanmohann.github.io](https://pavanmohann.github.io/)
 
 
