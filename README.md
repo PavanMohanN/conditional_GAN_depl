@@ -37,7 +37,8 @@
 
 <h3>About the model </h3>
 
-![fig3](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/a320de4f-4af8-4380-8b94-a6045eb74eb3)
+![image](https://github.com/PavanMohanN/conditional_GAN_depl/assets/65588614/ff2cb625-9ff6-4666-97d1-ad286af88ac4)
+
 
 
 Fig. 1. C-GAN model illustration.
