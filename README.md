@@ -75,7 +75,7 @@ Please note that while C-GANs can be powerful tools for generating data, they al
 
 **Email**: npavanmohan3@gmail.com
 
-**Personal Website 🔴🔵**: [pavanmohann.github.io](https://pavanmohann.github.io/)
+**Personal Website 🔴🔵**: [https://pavanmohan.netlify.app/](https://pavanmohan.netlify.app/)   
 
 
 ---
