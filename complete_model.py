@@ -109,18 +109,13 @@ class Discriminator(nn.Module):
 def __init__(self):
 super().__init__()
 self.model = nn.Sequential(
-	nn.Dense(31),
-	nn.LeakyReLU(0.2, inplace=True),
-	nn.dense(64,
-	nn.Linear(50, 80),
-	nn.LeakyReLU(0.2, inplace=True),
-	nn.Dropout(0.3),
-	nn.Linear(80, 100),
-	nn.LeakyReLU(0.2, inplace=True),
-	nn.Dropout(0.3),
-	nn.Linear(100, 1),
-	nn.Sigmoid()
+    nn.Linear(31, 16),  # Change from nn.Dense to nn.Linear and set to 31 input and 16 output neurons
+    nn.LeakyReLU(0.2, inplace=True),
+    nn.Dropout(0.2),    # Add dropout after the first layer
+    nn.Linear(16, 1),   # Output layer with 1 neuron
+    nn.Sigmoid()
 )
+
 
 def forward(self, x, c, batch_size):
 	c = c.view(batch_size, -1)
@@ -137,19 +132,21 @@ output@24: The number of predictor variables.
 
 
 class Generator(nn.Module):
+import torch.nn as nn
+
 def __init__(self):
-	super().__init__()
-	self.model = nn.Sequential(
-	nn.Linear(64, 128),
-	nn.ReLU(0.2, inplace=True),
-	# nn.ReLU(),
-	nn.Linear(64, 64),
-	nn.ReLU(0.2, inplace=True),
-	# nn.ReLU(),
-	nn.Linear(64, 45),
-	nn.ReLU(0.2, inplace=True),
-	nn.Linear(45, 28),
-)
+    super().__init__()
+    self.model = nn.Sequential(
+        nn.Linear(64, 48),  # Input layer to first hidden layer
+        nn.ReLU(0.2, inplace=True),
+        nn.Dropout(0.2),    # Dropout layer after first hidden layer
+        nn.Linear(48, 32),  # First hidden layer to second hidden layer
+        nn.ReLU(0.2, inplace=True),
+        nn.Dropout(0.2),    # Dropout layer after second hidden layer
+        nn.Linear(32, 24)   # Second hidden layer to output layer
+    )
+
+
 def forward(self, z, c, batch_size):
 	# z = torch.from_numpy(z)
 	# c = torch.from_numpy(c)
@@ -208,7 +205,7 @@ criterion = nn.BCELoss().to(device)
 # criterion = nn.MSELoss().to(device)
 torch.set_grad_enabled(True)
 # Define your optimizer (e.g., Adam optimizer)
-gen_optimizer = optim.Adam(generator.parameters(), lr=0.0005, betas=(0.5, 0.999)) # DEFINE LEARNING RATE AND CORRESPONDING PARAMETERS FOR GENERATOR AND DISCRIMINATOR NETWORKS
+gen_optimizer = optim.Adam(generator.parameters(), lr=0.0001, betas=(0.5, 0.999)) # DEFINE LEARNING RATE AND CORRESPONDING PARAMETERS FOR GENERATOR AND DISCRIMINATOR NETWORKS
 dis_optimizer = optim.Adam(discriminator.parameters(), lr=0.0005, betas=(0.5, 0.999))
 
 # <DEFINE YOUR PATHS FOR GENERATOR AND DISCRUMINATOR>
